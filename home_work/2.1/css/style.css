@@ -1,0 +1,34 @@
+.block-1 {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    background-image: url('/img/jungle.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.block-2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('img/banana.png');
+    background-repeat: no-repeat;
+    background-position: 400px 120px;
+    background-size: 20%;
+}
+.block-3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('img/baloo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 200px 290px;
+    background-size: 15%;
+}
+.block-4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('img/mowgli.png');
+    background-repeat: no-repeat;
+    background-position: 140px 345px;
+    background-size: 12%;
+}

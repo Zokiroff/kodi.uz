@@ -1,0 +1,151 @@
+/* Config */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.clr::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* Header */
+header {
+    padding: 50px 0;
+    text-align: center;
+}
+header nav {
+    margin-top: 20px;
+}
+header nav a {
+    font-size: 12px;
+    color: #777;
+    text-decoration: none;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+/* Earth */
+#earth {
+    margin-top: 20px;
+}
+.earth-img {
+    float: left;
+    width: 50%;
+}
+.earth-img img {
+    width: 100%;
+}
+.earth-content {
+    float: left;
+    width: 50%;
+}
+.earth-content .title {
+    font-size: 64px;
+    text-align: center;
+    margin-top: 175px;
+    margin-bottom: 40px;
+}
+.earth-content .text {
+    text-align: center;
+    font-weight: 300;
+}
+
+/* Falcon */
+.falcon-content {
+    float: left;
+    width: 50%;
+    margin-top: 35%;
+}
+.falcon-img {
+    float: left;
+    width: 50%;
+}
+.falcon-img img {
+    width: 50%;
+}
+.falcon-content h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.falcon-content table {
+    width: 100%;
+}
+.falcon-content table td {
+    padding: 10px 0;
+    font-weight: 300;
+}
+.falcon-content span {
+    color: #777;
+}
+.falcon-content p {
+    color: #777;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* Footer */
+footer {
+    padding: 70px 0;
+    text-align: center;
+}
+footer nav {
+    margin: 30px 0;
+}
+footer nav a {
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+footer p {
+    color: #777;
+}
+footer .contact {
+    padding: 15px 70px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    margin: 30px 0;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .falcon-content {
+        float: none;
+        width: 100%;
+    }
+    .falcon-img {
+        float: none;
+        width: 100%;
+    }
+    .earth-img {
+        float: none;
+        width: 100%;
+    }
+    .earth-content {
+        float: none;
+        width: 100%;
+    }
+}
